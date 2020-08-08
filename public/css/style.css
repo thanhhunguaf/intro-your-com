@@ -698,9 +698,8 @@ h2 span {
 }
 
 .about_left {
-	background: url(public/images/about.jpg);
-	background-position: center;
-	background-size: cover;
+    background: url("../images/about.jpg") center;
+    background-size: cover;
 	position: relative;
 	margin-top: 8px;
 }

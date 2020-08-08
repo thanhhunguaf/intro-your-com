@@ -45,7 +45,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="main_logo" href="index-2.html">
+                    <a class="main_logo" href="#">
                         <img src="{{ asset('images/logo.png') }}" alt="LOGO">
                     </a>
                 </div>
@@ -78,7 +78,6 @@
                     <div class="banner_text">
                         <h4><span>CÔNG TY THIẾT KẾ - THI CÔNG NỘI THẤT</span></h4>
                         <h4><span>DẪN ĐẦU XU HƯỚNG</span></h4>
-                        <p>content</p>
                         <!-- <a href="#" class="multi_button">Know More</a> -->
                     </div>
                 </div>
@@ -145,7 +144,7 @@
             </div>
             <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                    <h2><span>Some words</span> about us</h2>
+                    <h2><span>Đôi lời</span> về chúng tôi</h2>
                     <p>Vinchange Concept là cái tên còn khá mới trong lĩnh vực Nội thất. Tuy nhiên, chúng tôi đã và đang
                         dần khẳng định được chỗ đứng và vị trí của mình trên thị trường và trong lòng khách hàng. Bằng
                         những kinh nghiệm tích lũy được ở các dự án đã thưc hiện trong những năm qua, cùng với đó là sự
@@ -177,7 +176,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4 filtr-item" data-category="1">
                     <div class="work_item">
                         <div class="work_img">
-                            <img src="{{ asset('images/work-2.jpg') }}" alt="sample image">
+                            <img src="{{ asset('images/thietkenoithat.jpg') }}" alt="sample image">
                             <div class="work_img_inner">
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <a class="venobox" data-gall="myGallery" href="public/images/work-2.jpg"><i
@@ -185,15 +184,15 @@
                             </div>
                         </div>
                         <div class="item_des">
-                            <a href="#"><h3>Căn hộ cho thuê 2 PN</h3></a>
-                            <p>The Sun Avenue – 65m2 - Phong cách hiện đại.</p>
+                            <a href="#"><h3>Thiết kế nội thất</h3></a>
+{{--                            <p>Phong cách hiện đại</p>--}}
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 filtr-item" data-category="2">
                     <div class="work_item">
                         <div class="work_img">
-                            <img src="{{ asset('images/work-1.jpg') }}" alt="sample image">
+                            <img src="{{ asset('images/thicongnoithat.jpg') }}" alt="sample image">
                             <div class="work_img_inner">
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <a class="venobox" data-gall="myGallery" href="public/images/work-1.jpg"><i
@@ -201,15 +200,15 @@
                             </div>
                         </div>
                         <div class="item_des">
-                            <a href="#"><h3>Văn phòng Offictel</h3></a>
-                            <p>The Sun Avenue – 70m2 - Phong cách hiện đại</p>
+                            <a href="#"><h3>Thi công nội thất</h3></a>
+{{--                            <p>Phong cách hiện đại</p>--}}
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 filtr-item" data-category="2">
                     <div class="work_item">
                         <div class="work_img">
-                            <img src="{{ asset('images/work-3.jpg') }}">
+                            <img src="{{ asset('images/decor.jpg') }}">
                             <div class="work_img_inner">
                                 <a href="#"><i class="fa fa-link"></i></a>
                                 <a class="venobox" data-gall="myGallery" href="{{ asset('images/work-3.jpg') }}"><i
@@ -218,8 +217,8 @@
                             </div>
                         </div>
                         <div class="item_des">
-                            <a href="#"><h3>Căn hộ 2 phòng ngủ</h3></a>
-                            <p>Phong cách Tân cổ điển Hà Đô Centrosa Garden - 80m2 </p>
+                            <a href="#"><h3>Decor</h3></a>
+{{--                            <p>Phong cách Tân cổ điển Hà Đô Centrosa Garden - 80m2 </p>--}}
                         </div>
                     </div>
                 </div>
@@ -500,7 +499,7 @@
         <div class="row text-center">
             <div class="section_head blog_head">
                 <h2>Blog</h2>
-                <p>Content</p>
+{{--                <p>Content</p>--}}
             </div>
         </div>
         <div class="row">
@@ -512,7 +511,7 @@
                             <!-- slick slide inner -->
                             <div class="img_slide">
                                 <div class="blog_img">
-                                    <img src="{{ asset('images/work-1.jpg') }}" alt="img">
+                                    <img src="{{ asset('images/blog2.jpg') }}" alt="img">
                                 </div>
                             </div>
                             <div class="blog_img_inner">
@@ -525,9 +524,9 @@
                         </div>
 
                         <div class="blog_des">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                            <a href="#" class="blog_Read">Read More<i class="fa fa-arrow-right"></i></a>
+                            <h3>Căn hộ cho thuê 2 PN</h3>
+                            <p>The Sun Avenue – Phong cách hiện đại</p>
+                            <a href="#" class="blog_Read">Xem thêm<i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -537,7 +536,7 @@
                             <!-- slick slide inner -->
                             <div class="img_slide">
                                 <div class="blog_img">
-                                    <img src="{{ asset('images/work-2.jpg') }}" alt="img">
+                                    <img src="{{ asset('images/blog1.jpg') }}" alt="img">
                                 </div>
                             </div>
                             <div class="blog_img_inner">
@@ -550,9 +549,9 @@
                         </div>
 
                         <div class="blog_des">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                            <a href="#" class="blog_Read">Read More<i class="fa fa-arrow-right"></i></a>
+                            <h3>Văn phòng Offical</h3>
+                            <p>The Sun Avenue – Phong cách hiện đại</p>
+                            <a href="#" class="blog_Read">Xem thêm<i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -562,7 +561,7 @@
                             <!-- slick slide inner -->
                             <div class="img_slide">
                                 <div class="blog_img">
-                                    <img src="{{ asset('images/work-3.jpg') }}" alt="img">
+                                    <img src="{{ asset('images/blog3.jpg') }}" alt="img">
                                 </div>
                             </div>
                             <div class="blog_img_inner">
@@ -575,33 +574,8 @@
                         </div>
 
                         <div class="blog_des">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                            <a href="#" class="blog_Read">Read More<i class="fa fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="blog_content">
-                        <div class="blog_img_part">
-                            <!-- slick slide inner -->
-                            <div class="img_slide">
-                                <div class="blog_img">
-                                    <img src="{{ asset('images/work-3.jpg') }}" alt="img">
-                                </div>
-                            </div>
-                            <div class="blog_img_inner">
-                                <div class="blog_date">
-                                    <h4>23</h4>
-                                    <p>Nov</p>
-                                </div>
-                                <a href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="blog_des">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                            <h3>Căn hộ 2 phòng ngủ</h3>
+                            <p>Cách Tân cổ điển Hà Đô Centrosa Garden</p>
                             <a href="#" class="blog_Read">Read More<i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -620,9 +594,23 @@
             <div class="row">
                 <div class="col-lg-4 col-md-3 col-sm-8">
                     <div class="widgets widg_1">
-                        <a href="index-2.html">
-                            <img src="{{ asset('images/logo.png') }}" alt="">
+                        <a href="#">
+                            <img src="{{ asset('images/logo1.png') }}" alt="">
                         </a>
+{{--                        <p>LIÊN HỆ NGAY ĐỂ ĐƯỢC TƯ VẤN</p>--}}
+{{--                        <div class="office_des">--}}
+{{--                            <ul>--}}
+{{--                                <li><i class="fa fa-map-marker"></i> 304 Bùi Đình Túy, phường 12, Quận Bình Thạnh,--}}
+{{--                                    TP.HCM--}}
+{{--                                </li>--}}
+{{--                                <li><i class="fa fa-phone"></i>(+84) 939692951</li>--}}
+{{--                                <li><i class="fa fa-envelope-o"></i>sg@vinchangeconcept.vn</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-8">
+                    <div class="widgets widg_2">
                         <p>LIÊN HỆ NGAY ĐỂ ĐƯỢC TƯ VẤN</p>
                         <div class="office_des">
                             <ul>
@@ -633,15 +621,6 @@
                                 <li><i class="fa fa-envelope-o"></i>sg@vinchangeconcept.vn</li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-4">
-                    <div class="widgets widg_2">
-                        <h3>Information</h3>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-long-arrow-right"></i>About Us</a></li>
-                            <li><a href="#"><i class="fa fa-long-arrow-right"></i>Privacy Policy</a></li>
-                        </ul>
                     </div>
                     <div class="clearfix visible-sm"></div>
                 </div>
@@ -669,7 +648,7 @@
                 </div> -->
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="widgets widg_4">
-                        <h3>Subcribe</h3>
+{{--                        <h3>Subcribe</h3>--}}
                         <p>Join awesome subscribers and update yourself with our exclusive news.</p>
                         <div class="bottom_social">
                             <ul class="text-center">
