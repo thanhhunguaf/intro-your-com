@@ -1,0 +1,106 @@
+<svg id="sgv-web" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 115.72 81.09">
+    <defs>
+        <style>
+            #sgv-web{
+                overflow: overlay;
+            }
+            .yellow-to-red{
+                fill: #faad1b;
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .yellow-to-red, #sgv-web.hover .yellow-to-red{
+                fill: #ed2330
+            }
+            .rotate1{
+                transform: rotate(0deg);
+                transition: all .3s ease-in-out;
+                transform-box: fill-box;
+                transform-origin: 50% 50%;
+            }
+            #sgv-web:hover .rotate1, #sgv-web.hover .rotate1{
+                transform: rotate(135deg);
+            }
+            .bar1{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .bar1, #sgv-web.hover .bar1{
+                transform: translateX(19.3%) scaleX(.6);
+            }
+            .bar2{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .bar2, #sgv-web.hover .bar2{
+                transform: translateX(-32.4%) scaleX(1.67);
+            }
+            .bar3{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .bar3, #sgv-web.hover .bar3{
+                transform: translateX(17.6%) scaleX(.56);
+            }
+            .bar4{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .bar4, #sgv-web.hover .bar4{
+                transform: translateX(33.3%) scaleX(.56);
+            }
+            .bar5{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .bar5, #sgv-web.hover .bar5{
+                transform: translateX(-30.7%) scaleX(1.77);
+            }
+            .bar6{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .bar6, #sgv-web.hover .bar6{
+                transform: translateX(-58.1%) scaleX(1.77);
+            }
+
+            .circle1{
+                transform: translateY(0);
+                transition: all .3s ease-in-out;
+            }
+            #sgv-web:hover .circle1, #sgv-web.hover .circle1{
+                transform: translateY(-10%);
+            }
+            .cls-11{fill:#faad1b;}.cls-22{fill:#fff;}.cls-33{fill:#231f20;}.cls-4{fill:#ed2330;}.cls-5{clip-path:url(#clip-path);}
+        </style>
+        <clipPath id="clip-path">
+            <rect class="cls-11" x="28.46" y="29.58" width="21.25" height="21.25" rx="10.63"/>
+        </clipPath>
+    </defs>
+    <title>Asset 29</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-22" x="6.32" y="10.57" width="79.79" height="46.39" rx="14.14"/>
+            <path class="cls-33"
+                  d="M82,58H10.47A5.18,5.18,0,0,1,5.3,52.81V14.72a5.18,5.18,0,0,1,5.17-5.18H82a5.18,5.18,0,0,1,5.18,5.18V52.81A5.18,5.18,0,0,1,82,58ZM10.47,11.6a3.12,3.12,0,0,0-3.12,3.12V52.81a3.12,3.12,0,0,0,3.12,3.12H82a3.13,3.13,0,0,0,3.13-3.12V14.72A3.13,3.13,0,0,0,82,11.6Z"/>
+            <rect class="cls-22" x="21.09" y="23.62" width="93.6" height="54.42" rx="14.14"/>
+            <path class="cls-33"
+                  d="M110.54,79.07H25.24a5.19,5.19,0,0,1-5.18-5.17V27.77a5.19,5.19,0,0,1,5.18-5.17h85.3a5.18,5.18,0,0,1,5.18,5.17V73.9A5.18,5.18,0,0,1,110.54,79.07ZM25.24,24.65a3.12,3.12,0,0,0-3.12,3.12V73.9A3.12,3.12,0,0,0,25.24,77h85.3a3.13,3.13,0,0,0,3.13-3.12V27.77a3.13,3.13,0,0,0-3.13-3.12Z"/>
+            <rect class="cls-11 bar1" x="55.89" y="29.4" width="50.31" height="4.4"/>
+            <rect class="cls-11" x="55.89" y="38.4" width="50.31" height="4.4"/>
+            <rect class="cls-4 bar2" x="55.89" y="47.2" width="30.18" height="4.4"/>
+            <rect class="cls-4 bar3" x="46.18" y="57.47" width="18.79" height="4.4"/>
+            <rect class="cls-4 bar5" x="46.18" y="66.43" width="10.63" height="4.4"/>
+            <rect class="cls-4 bar6" x="87.41" y="66.43" width="10.63" height="4.4"/>
+            <circle class="cls-11" cx="35.14" cy="64.15" r="6.68"/>
+            <rect class="cls-4 bar4" x="87.41" y="57.47" width="18.79" height="4.4"/>
+            <circle class="cls-11" cx="76.38" cy="64.15" r="6.68"/>
+            <path class="cls-11 circle1 yellow-to-red" d="M6.68,67.73a6.68,6.68,0,1,0,6.68,6.68A6.68,6.68,0,0,0,6.68,67.73Z"/>
+            <rect class="cls-11 rotate1" x="94.08" width="15.06" height="15.06" rx="2.17"/>
+            <rect class="cls-11" x="28.46" y="29.58" width="21.25" height="21.25" rx="10.63"/>
+            <g class="cls-5">
+                <circle class="cls-4" cx="39.09" cy="49.4" r="11.5"/>
+            </g>
+        </g>
+    </g>
+</svg>

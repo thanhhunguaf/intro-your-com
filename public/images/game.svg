@@ -1,0 +1,132 @@
+<svg id="game" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.5 79.47">
+    <defs>
+        <style>
+
+            @keyframes rotate1{
+                100%{
+                    transform: rotate(30deg);
+                }
+            }
+
+            .rotate1{
+                transform: rotate(0deg);
+                transition: all .3s ease-in-out;
+                transform-box: fill-box;
+                transform-origin: 50% 50%;
+            }
+            #game:hover .rotate1, #game.hover .rotate1{
+                transform: rotate(30deg);
+            }
+
+            .rotate2{
+                transform: rotate(0deg);
+                transition: all .3s ease-in-out;
+                transform-box: fill-box;
+                transform-origin: 50% 50%;
+            }
+            #game:hover .rotate2, #game.hover .rotate2{
+                transform: rotate(135deg);
+            }
+            .bar1{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .bar1, #game.hover .bar1{
+                transform: translateX(3%) scaleX(.61);
+            }
+            .bar2{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .bar2, #game.hover .bar2{
+                transform: translateX(-5%) scaleX(1.65);
+            }
+            .bar3{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .bar3, #game.hover .bar3{
+                transform: translateX(13.6%) scaleX(.45);
+            }
+            .bar4{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .bar4, #game.hover .bar4{
+                transform: translateX(-13.5%) scaleX(1.55);
+            }
+            .bar5{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .bar5, #game.hover .bar5{
+                transform: translateX(19.4%) scaleX(0.65);
+            }
+            .bar6{
+                transform: translateX(0) scaleX(1);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .bar6, #game.hover .bar6{
+                transform: translateX(-50.05%) scaleX(1.9);
+            }
+            .circle1{
+                transform: translateY(0);
+                transition: all .3s ease-in-out;
+            }
+            #game:hover .circle1, #game.hover .circle1{
+                transform: translateY(14.5%);
+            }
+            .cls-1 {
+                fill: #fff;
+            }
+
+            .cls-2 {
+                fill: #231f20;
+            }
+
+            .cls-3 {
+                fill: #faad1b;
+            }
+
+            .cls-4 {
+                fill: #ed2330;
+            }
+        </style>
+    </defs>
+    <title>Asset 4</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g>
+                <g>
+                    <path class="cls-1" d="M10.43,1.23h7.78a7.11,7.11,0,0,1,7.11,7.11V32.1a7.11,7.11,0,0,1-7.11,7.11H10.43a7.26,7.26,0,0,1-7.26-7.26V8.49a7.26,7.26,0,0,1,7.26-7.26Z"/>
+                    <path class="cls-2" d="M22.82,40.44H5.72a3.79,3.79,0,0,1-3.79-3.79V3.78A3.79,3.79,0,0,1,5.72,0h17.1a3.73,3.73,0,0,1,3.73,3.73v33A3.73,3.73,0,0,1,22.82,40.44Zm-17.1-38A1.33,1.33,0,0,0,4.4,3.78V36.65A1.33,1.33,0,0,0,5.72,38h17.1a1.27,1.27,0,0,0,1.27-1.27v-33a1.27,1.27,0,0,0-1.27-1.27Z"/>
+                </g>
+                <g>
+                    <rect class="cls-1" x="18.99" y="26.55" width="56.97" height="37.98" rx="6.27"/>
+                    <path class="cls-2" d="M70.94,65.76H24a6.25,6.25,0,0,1-6.24-6.25V31.56A6.25,6.25,0,0,1,24,25.32H70.94a6.26,6.26,0,0,1,6.25,6.24v28A6.26,6.26,0,0,1,70.94,65.76ZM24,27.78a3.79,3.79,0,0,0-3.78,3.78v28A3.79,3.79,0,0,0,24,63.3H70.94a3.79,3.79,0,0,0,3.78-3.79V31.56a3.78,3.78,0,0,0-3.78-3.78Z"/>
+                </g>
+                <polygon class="cls-3 rotate1" points="37.98 45.54 37.98 17.05 62.72 31.3 37.98 45.54"/>
+                <g>
+                    <path class="cls-1" d="M68.45,38.15H83.62a7.11,7.11,0,0,1,7.11,7.11V81.68a7.11,7.11,0,0,1-7.11,7.11H68.45a7.26,7.26,0,0,1-7.26-7.26V45.42A7.26,7.26,0,0,1,68.45,38.15Z" transform="translate(139.43 -12.48) rotate(90)"/>
+                    <path class="cls-2" d="M98.77,79.47H53.14a3.73,3.73,0,0,1-3.73-3.73V51.26a3.79,3.79,0,0,1,3.78-3.79H98.72a3.79,3.79,0,0,1,3.78,3.79V75.74A3.73,3.73,0,0,1,98.77,79.47ZM53.19,49.93a1.33,1.33,0,0,0-1.32,1.33V75.74A1.27,1.27,0,0,0,53.14,77H98.77A1.27,1.27,0,0,0,100,75.74V51.26a1.33,1.33,0,0,0-1.32-1.33Z"/>
+                </g>
+                <g class="rotate2">
+                    <rect class="cls-3" x="81.88" y="63.49" width="3.55" height="7.1" transform="translate(95.39 173.6) rotate(-135)"/>
+                    <rect class="cls-3" x="89.4" y="55.97" width="3.55" height="7.1" transform="translate(113.57 166.07) rotate(-135)"/>
+                    <rect class="cls-3" x="81.88" y="55.97" width="3.55" height="7.1" transform="translate(-17.58 76.58) rotate(-45)"/>
+                    <rect class="cls-3" x="89.4" y="63.49" width="3.55" height="7.1" transform="translate(-20.7 84.11) rotate(-45)"/>
+                </g>
+                <circle class="cls-4 circle1" cx="6.33" cy="61.36" r="6.33"/>
+                <rect class="cls-4 rotate2" x="69.62" y="4.4" width="15.82" height="15.82"/>
+                <rect class="cls-3 bar1" x="7.83" y="7.56" width="12.83" height="3.16"/>
+                <rect class="cls-3 bar2" x="7.83" y="13.89" width="7.7" height="3.16"/>
+                <rect class="cls-4 bar2" x="7.83" y="20.22" width="7.7" height="3.16"/>
+                <rect class="cls-3 bar5" x="56.97" y="55.56" width="15.82" height="3.16"/>
+                <rect class="cls-3 bar4" x="25.32" y="55.56" width="12.66" height="3.16"/>
+                <rect class="cls-4 bar3" x="25.32" y="49.05" width="18.99" height="3.16"/>
+                <rect class="cls-4 bar6" x="56.97" y="61.89" width="9.49" height="3.16"/>
+                <rect class="cls-4 bar6" x="56.97" y="68.22" width="9.49" height="3.16"/>
+            </g>
+        </g>
+    </g>
+</svg>
