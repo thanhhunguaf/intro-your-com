@@ -46,7 +46,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="main_logo" href="#">
-                        <img src="{{ asset('images/logo.png') }}" alt="LOGO">
+                        <img src="{{ asset('images/logo1.png') }}" alt="LOGO">
                     </a>
                 </div>
 
@@ -56,7 +56,7 @@
                         <li class="active"><a href="#header_part">Trang chủ</a></li>
                         <li><a href="#about_part">Giới thiệu</a></li>
                         <li><a href="#service_part">Dịch vụ</a></li>
-                        <li><a href="#work_part">QUy tình</a></li>
+                        <li><a href="#work_part">Quy trình</a></li>
                         <li><a href="#blog_part">Blog</a></li>
                         <li><a href="#contact_part">Liên hệ</a></li>
                     </ul>
@@ -144,7 +144,7 @@
             </div>
             <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                    <h2><span>Đôi lời</span> về chúng tôi</h2>
+                    <h2>Giới thiệu</h2>
                     <p>Vinchange Concept là cái tên còn khá mới trong lĩnh vực Nội thất. Tuy nhiên, chúng tôi đã và đang
                         dần khẳng định được chỗ đứng và vị trí của mình trên thị trường và trong lòng khách hàng. Bằng
                         những kinh nghiệm tích lũy được ở các dự án đã thưc hiện trong những năm qua, cùng với đó là sự
@@ -185,7 +185,7 @@
                         </div>
                         <div class="item_des">
                             <a href="#"><h3>Thiết kế nội thất</h3></a>
-{{--                            <p>Phong cách hiện đại</p>--}}
+                            {{--                            <p>Phong cách hiện đại</p>--}}
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                         </div>
                         <div class="item_des">
                             <a href="#"><h3>Thi công nội thất</h3></a>
-{{--                            <p>Phong cách hiện đại</p>--}}
+                            {{--                            <p>Phong cách hiện đại</p>--}}
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                         </div>
                         <div class="item_des">
                             <a href="#"><h3>Decor</h3></a>
-{{--                            <p>Phong cách Tân cổ điển Hà Đô Centrosa Garden - 80m2 </p>--}}
+                            {{--                            <p>Phong cách Tân cổ điển Hà Đô Centrosa Garden - 80m2 </p>--}}
                         </div>
                     </div>
                 </div>
@@ -229,43 +229,43 @@
 <!--  Service Part End-->
 
 <!--  Achievement Part Start  -->
-<section id="achivement_part" data-bg-image="images/counter-bg.jpg">
-    <div class="container">
-        <div class="row text-center">
-            <div class="counter_content">
-                <div class="col-xs-12 col-sm-3">
-                    <div class="counter_item">
-                        <i class="fa fa-compress"></i>
-                        <h3 class="counting">2400</h3>
-                        <p>Project Complated</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="counter_item">
-                        <i class="fa fa-handshake-o"></i>
-                        <h3 class="counting">1600</h3>
-                        <p>Clients Satisfaction</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="counter_item">
-                        <i class="fa fa-trophy"></i>
-                        <h3 class="counting">200</h3>
-                        <p>Awards Wins</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="counter_item connter_last">
-                        <i class="fa fa-users"></i>
-                        <h3 class="counting">1000</h3>
-                        <p>Users</p>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</section>
+{{--<section id="achivement_part" data-bg-image="images/counter-bg.jpg">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row text-center">--}}
+{{--            <div class="counter_content">--}}
+{{--                <div class="col-xs-12 col-sm-3">--}}
+{{--                    <div class="counter_item">--}}
+{{--                        <i class="fa fa-compress"></i>--}}
+{{--                        <h3 class="counting">2400</h3>--}}
+{{--                        <p>Project Complated</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-xs-12 col-sm-3">--}}
+{{--                    <div class="counter_item">--}}
+{{--                        <i class="fa fa-handshake-o"></i>--}}
+{{--                        <h3 class="counting">1600</h3>--}}
+{{--                        <p>Clients Satisfaction</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-xs-12 col-sm-3">--}}
+{{--                    <div class="counter_item">--}}
+{{--                        <i class="fa fa-trophy"></i>--}}
+{{--                        <h3 class="counting">200</h3>--}}
+{{--                        <p>Awards Wins</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-xs-12 col-sm-3">--}}
+{{--                    <div class="counter_item connter_last">--}}
+{{--                        <i class="fa fa-users"></i>--}}
+{{--                        <h3 class="counting">1000</h3>--}}
+{{--                        <p>Users</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="clearfix"></div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <!--  Achivement Part End  -->
 
 <!--  Work Part Start  -->
@@ -278,28 +278,29 @@
             <div>
                 <ul class="work_list filters-filer-1" id="filer-1">
                     <div class="text-center" style="color: #fcac45">
-                        <h5><strong>QUY TRÌNH THIẾT KẾ</strong></h5>
+                        <h5><strong style="font-size: 21px">QUY TRÌNH THIẾT KẾ</strong></h5>
                     </div>
 
-                    <li class="filtr active" data-fltr="1" style="margin-top: 5px; color: black; font-size: 20px">Tiếp
+                    <li class="filtr active" data-fltr="1">
+                        <span>Tiếp
                         xúc
-                        khách hàng
+                        <br>khách hàng</span>
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="2" style="margin-top: 5px; color: black; font-size: 20px">Thống nhất sơ
+{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
+                    <li class="filtr" data-fltr="2">Thống nhất sơ
                         đồ bố trí
                         nội thất (layout)
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="3" style="margin-top: 5px; color: black; font-size: 20px">Báo giá và ký
-                        Hợp đồng
+{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
+                    <li class="filtr" data-fltr="3"><span>Báo giá và <br>ký
+                        Hợp đồng</span>
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="4" style="margin-top: 5px; color: black; font-size: 20px">Tiến hành
+{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
+                    <li class="filtr" data-fltr="4">Tiến hành
                         Thiết kế 3D
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="5" style="margin-top: 5px; color: black; font-size: 20px">Triển khai
+{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
+                    <li class="filtr" data-fltr="5">Triển khai
                         Bản vẽ 2D
                     </li>
                 </ul>
@@ -358,7 +359,7 @@
             <div>
                 <ul class="work_list filters-filer-2" id="filer-2">
                     <div class="text-center" style="color: #fcac45">
-                        <h5><strong>QUY TRÌNH THI CÔNG</strong></h5>
+                        <h5><strong style="font-size: 21px">QUY TRÌNH THI CÔNG</strong></h5>
                     </div>
 
                     <li class="filtr active" data-fltr="1" style="margin-top: 5px; color: black; font-size: 20px">Báo
@@ -375,7 +376,7 @@
                     <li class="filtr" data-fltr="4" style="margin-top: 5px; color: black; font-size: 20px">Bàn giao
                     </li>
                     <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="5" style="margin-top: 5px; color: black; font-size: 20px">Bảo hành
+                    <li class="filtr" data-fltr="5" style="margin-top: 5px; color: black; font-size: 20px">Bảo hành và bảo trì
                     </li>
                 </ul>
             </div>
@@ -499,7 +500,7 @@
         <div class="row text-center">
             <div class="section_head blog_head">
                 <h2>Blog</h2>
-{{--                <p>Content</p>--}}
+                {{--                <p>Content</p>--}}
             </div>
         </div>
         <div class="row">
@@ -597,16 +598,16 @@
                         <a href="#">
                             <img src="{{ asset('images/logo1.png') }}" alt="">
                         </a>
-{{--                        <p>LIÊN HỆ NGAY ĐỂ ĐƯỢC TƯ VẤN</p>--}}
-{{--                        <div class="office_des">--}}
-{{--                            <ul>--}}
-{{--                                <li><i class="fa fa-map-marker"></i> 304 Bùi Đình Túy, phường 12, Quận Bình Thạnh,--}}
-{{--                                    TP.HCM--}}
-{{--                                </li>--}}
-{{--                                <li><i class="fa fa-phone"></i>(+84) 939692951</li>--}}
-{{--                                <li><i class="fa fa-envelope-o"></i>sg@vinchangeconcept.vn</li>--}}
-{{--                            </ul>--}}
-{{--                        </div>--}}
+                        {{--                        <p>LIÊN HỆ NGAY ĐỂ ĐƯỢC TƯ VẤN</p>--}}
+                        {{--                        <div class="office_des">--}}
+                        {{--                            <ul>--}}
+                        {{--                                <li><i class="fa fa-map-marker"></i> 304 Bùi Đình Túy, phường 12, Quận Bình Thạnh,--}}
+                        {{--                                    TP.HCM--}}
+                        {{--                                </li>--}}
+                        {{--                                <li><i class="fa fa-phone"></i>(+84) 939692951</li>--}}
+                        {{--                                <li><i class="fa fa-envelope-o"></i>sg@vinchangeconcept.vn</li>--}}
+                        {{--                            </ul>--}}
+                        {{--                        </div>--}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-3 col-sm-8">
@@ -648,15 +649,13 @@
                 </div> -->
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="widgets widg_4">
-{{--                        <h3>Subcribe</h3>--}}
-                        <p>Join awesome subscribers and update yourself with our exclusive news.</p>
+                        {{--                        <h3>Subcribe</h3>--}}
+                        <p style="text-align: center">Tìm hiểu thêm về chúng tôi:</p>
                         <div class="bottom_social">
                             <ul class="text-center">
                                 <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="fa fa-skype"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
