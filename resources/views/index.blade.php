@@ -286,20 +286,16 @@
                         xúc
                         <br>khách hàng</span>
                     </li>
-{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
                     <li class="filtr" data-fltr="2">Thống nhất sơ
                         đồ bố trí
-                        nội thất (layout)
+                        nội thất
                     </li>
-{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
                     <li class="filtr" data-fltr="3"><span>Báo giá và <br>ký
                         Hợp đồng</span>
                     </li>
-{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
                     <li class="filtr" data-fltr="4">Tiến hành
                         Thiết kế 3D
                     </li>
-{{--                    <span style="color: #fcac45; font-size: 20px; color: black">></span>--}}
                     <li class="filtr" data-fltr="5">Triển khai
                         Bản vẽ 2D
                     </li>
@@ -356,27 +352,23 @@
                 </div>
             </div>
 
-            <div>
+            <div style="padding-top: 30px">
                 <ul class="work_list filters-filer-2" id="filer-2">
                     <div class="text-center" style="color: #fcac45">
                         <h5><strong style="font-size: 21px">QUY TRÌNH THI CÔNG</strong></h5>
                     </div>
 
-                    <li class="filtr active" data-fltr="1" style="margin-top: 5px; color: black; font-size: 20px">Báo
-                        giá và tiến hành Ký HĐ
+                    <li class="filtr active" data-fltr="1">Báo
+                        giá và<br> ký hơp đồng
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="2" style="margin-top: 5px; color: black; font-size: 20px">Xác nhận và
-                        ký duyệt Vật liệu mẫu
+                    <li class="filtr" data-fltr="2">Xác nhận và
+                        ký duyệt vật liệu mẫu
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="3" style="margin-top: 5px; color: black; font-size: 20px">Thi công
+                    <li class="filtr" data-fltr="3">Tiến hành <br> thi công
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="4" style="margin-top: 5px; color: black; font-size: 20px">Bàn giao
+                    <li class="filtr" data-fltr="4">Tiến hành <br>bàn giao
                     </li>
-                    <span style="color: #fcac45; font-size: 20px; color: black">></span>
-                    <li class="filtr" data-fltr="5" style="margin-top: 5px; color: black; font-size: 20px">Bảo hành và bảo trì
+                    <li class="filtr" data-fltr="5">Bảo hành và <br>bảo trì
                     </li>
                 </ul>
             </div>
