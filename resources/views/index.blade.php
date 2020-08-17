@@ -134,11 +134,10 @@
             <div class="col-sm-6">
                 <div class="about_left text-center">
                     <div class="about_left_inner">
-                        <a class="venoboxvideo" data-vbtype="video" href="https://youtu.be/S7wCAquf9Us"><i
+                        <a class="venoboxvideo" data-vbtype="video" href="https://youtu.be/J0oADtwDtNw"><i
                                 class="fa fa-youtube-play"></i></a>
-                        <h3>Spirit Video Presentation</h3>
-                        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur
-                            mutationem consuetudium.</p>
+                        <h3>Vinchange Concept</h3>
+                        <p>Thiết kế, thi công nội thất dẫn đầu xu hướng</p>
                     </div>
                 </div>
             </div>
