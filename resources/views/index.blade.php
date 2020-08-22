@@ -150,8 +150,8 @@
                         nỗ lực học hỏi và không ngừng tiếp thu các ứng dụng, công nghệ mới áp dụng vào thực tế.</p>
                     <!-- <a href="#" class="multi_button">Read More</a> -->
                     <ul>
-                        <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Với tiêu chí: -</span> Thiết kế
-                            ấn tượng, Thi công chất lượng, Dịch vụ tận tâm
+                        <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Với tiêu chí: </span> "Thiết kế
+                            ấn tượng, Thi công chất lượng, Dịch vụ tận tâm"
                         </li>
                     </ul>
                     <p>Từng thành viên của Vinchange Concept luôn cố gắng bằng tất cả sự nỗ lực, đam mê và nhiệt huyết
@@ -276,7 +276,7 @@
             </div>
             <div>
                 <ul class="work_list filters-filer-1" id="filer-1">
-                    <div class="text-center" style="color: #fcac45">
+                    <div class="text-center" style="color: #fcac45; margin-bottom: 10px">
                         <h5><strong style="font-size: 21px">QUY TRÌNH THIẾT KẾ</strong></h5>
                     </div>
 
@@ -353,7 +353,7 @@
 
             <div style="padding-top: 30px">
                 <ul class="work_list filters-filer-2" id="filer-2">
-                    <div class="text-center" style="color: #fcac45">
+                    <div class="text-center" style="color: #fcac45; margin-bottom: 10px">
                         <h5><strong style="font-size: 21px">QUY TRÌNH THI CÔNG</strong></h5>
                     </div>
 
