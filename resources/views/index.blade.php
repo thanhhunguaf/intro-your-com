@@ -178,8 +178,9 @@
                             <img src="{{ asset('images/thietkenoithat.jpg') }}" alt="sample image">
                             <div class="work_img_inner">
                                 <a href="#"><i class="fa fa-link"></i></a>
-                                <a class="venobox" data-gall="myGallery" href="public/images/work-2.jpg"><i
+                                <a class="venobox" data-gall="myGallery" href="{{ asset('images/thietkenoithat.jpg') }}"><i
                                         class="fa fa-camera"></i></a>
+
                             </div>
                         </div>
                         <div class="item_des">
@@ -194,7 +195,7 @@
                             <img src="{{ asset('images/thicongnoithat.jpg') }}" alt="sample image">
                             <div class="work_img_inner">
                                 <a href="#"><i class="fa fa-link"></i></a>
-                                <a class="venobox" data-gall="myGallery" href="public/images/work-1.jpg"><i
+                                <a class="venobox" data-gall="myGallery" href="{{ asset('images/thicongnoithat.jpg') }}"><i
                                         class="fa fa-camera"></i></a>
                             </div>
                         </div>
@@ -210,7 +211,7 @@
                             <img src="{{ asset('images/decor.jpg') }}">
                             <div class="work_img_inner">
                                 <a href="#"><i class="fa fa-link"></i></a>
-                                <a class="venobox" data-gall="myGallery" href="{{ asset('images/work-3.jpg') }}"><i
+                                <a class="venobox" data-gall="myGallery" href="{{ asset('images/decor.jpg') }}"><i
                                         class="fa fa-camera"></i></a>
 
                             </div>
