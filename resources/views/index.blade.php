@@ -46,7 +46,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="main_logo" href="#">
-                        <img src="{{ asset('images/logo1.png') }}" alt="LOGO">
+                        <img src="{{ asset('images/logo2.png') }}" alt="LOGO">
                     </a>
                 </div>
 
@@ -276,7 +276,7 @@
             </div>
             <div>
                 <ul class="work_list filters-filer-1" id="filer-1">
-                    <div class="text-center" style="color: #fcac45; margin-bottom: 10px">
+                    <div class="text-center" style="color: #fcac45; margin-bottom: 30px">
                         <h5><strong style="font-size: 21px">QUY TRÌNH THIẾT KẾ</strong></h5>
                     </div>
 
@@ -353,7 +353,7 @@
 
             <div style="padding-top: 30px">
                 <ul class="work_list filters-filer-2" id="filer-2">
-                    <div class="text-center" style="color: #fcac45; margin-bottom: 10px">
+                    <div class="text-center" style="color: #fcac45; margin-bottom: 30px">
                         <h5><strong style="font-size: 21px">QUY TRÌNH THI CÔNG</strong></h5>
                     </div>
 
@@ -384,7 +384,7 @@
                     <div class="work_item">
                         <div class="work_item">
                             <div class="item_des">
-                                <p style="font-size: 16px">⦁ Xác nhận và ký duyệt vật liệu mẫu: Trình mẫu vật liệu thực
+                                <p style="font-size: 16px">Xác nhận và ký duyệt vật liệu mẫu: Trình mẫu vật liệu thực
                                     tế để khách hàng xác nhận trước khi thi công và sản xuất</p>
                             </div>
                         </div>
@@ -587,7 +587,7 @@
                 <div class="col-lg-4 col-md-3 col-sm-8">
                     <div class="widgets widg_1">
                         <a href="#">
-                            <img src="{{ asset('images/logo1.png') }}" alt="">
+                            <img src="{{ asset('images/logo2.png') }}" alt="">
                         </a>
                         {{--                        <p>LIÊN HỆ NGAY ĐỂ ĐƯỢC TƯ VẤN</p>--}}
                         {{--                        <div class="office_des">--}}
@@ -662,14 +662,14 @@
                     <div class="col-sm-5">
                         <div class="footer_left">
                             <ul>
-                                <li>Copyright © 2019 | <a href="#">SPIRIT</a></li>
+                                <li style="color: #333">Copyright © 2019 | <a href="#" style="color: #333">SPIRIT</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-7">
                         <div class="footer_right text-right">
                             <ul>
-                                <li>Design by <a href="https://themeforest.net/user/pollexe" target="_blank">Pollexe</a>
+                                <li style="color: #333">Design by <a style="color: #333" href="https://themeforest.net/user/pollexe" target="_blank">Pollexe</a>
                                 </li>
                             </ul>
                         </div>
