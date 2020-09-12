@@ -16,3 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::prefix('thietkenoithat')->group(function () {
+    Route::get('', function () {
+        return view('thietkenoithat.thietkenoithat');
+    });
+
+    Route::get('/hado', function () {
+        return view('thietkenoithat.hado');
+    });
+
+    Route::get('/fidecothaodien', function () {
+        return view('thietkenoithat.fidecothaodien');
+    });
+});
+
+Route::prefix('thicongnoithat')->group(function () {
+    Route::get('', function () {
+        return view('thicongnoithat.thicongnoithat');
+    });
+
+    Route::get('/hado', function () {
+        return view('thicongnoithat.hado');
+    });
+});

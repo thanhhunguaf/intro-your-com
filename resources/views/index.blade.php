@@ -177,14 +177,15 @@
                         <div class="work_img">
                             <img src="{{ asset('images/thietkenoithat.jpg') }}" alt="sample image">
                             <div class="work_img_inner">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a class="venobox" data-gall="myGallery" href="{{ asset('images/thietkenoithat.jpg') }}"><i
+                                <a href="/thietkenoithat" target="_blank"><i class="fa fa-link"></i></a>
+                                <a class="venobox" data-gall="myGallery"
+                                   href="{{ asset('images/thietkenoithat.jpg') }}"><i
                                         class="fa fa-camera"></i></a>
 
                             </div>
                         </div>
                         <div class="item_des">
-                            <a href="#"><h3>Thiết kế nội thất</h3></a>
+                            <a href="/thietkenoithat" target="_blank"><h3>Thiết kế nội thất</h3></a>
                             {{--                            <p>Phong cách hiện đại</p>--}}
                         </div>
                     </div>
@@ -194,13 +195,14 @@
                         <div class="work_img">
                             <img src="{{ asset('images/thicongnoithat.jpg') }}" alt="sample image">
                             <div class="work_img_inner">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a class="venobox" data-gall="myGallery" href="{{ asset('images/thicongnoithat.jpg') }}"><i
+                                <a href="/thicongnoithat" target="_blank"><i class="fa fa-link"></i></a>
+                                <a class="venobox" data-gall="myGallery"
+                                   href="{{ asset('images/thicongnoithat.jpg') }}"><i
                                         class="fa fa-camera"></i></a>
                             </div>
                         </div>
                         <div class="item_des">
-                            <a href="#"><h3>Thi công nội thất</h3></a>
+                            <a href="/thicongnoithat" target="_blank"><h3>Thi công nội thất</h3></a>
                             {{--                            <p>Phong cách hiện đại</p>--}}
                         </div>
                     </div>
@@ -663,14 +665,17 @@
                     <div class="col-sm-5">
                         <div class="footer_left">
                             <ul>
-                                <li style="color: #333">Copyright © 2019 | <a href="#" style="color: #333">SPIRIT</a></li>
+                                <li style="color: #333">Copyright © 2019 | <a href="#" style="color: #333">SPIRIT</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-7">
                         <div class="footer_right text-right">
                             <ul>
-                                <li style="color: #333">Design by <a style="color: #333" href="https://themeforest.net/user/pollexe" target="_blank">Pollexe</a>
+                                <li style="color: #333">Design by <a style="color: #333"
+                                                                     href="https://themeforest.net/user/pollexe"
+                                                                     target="_blank">Pollexe</a>
                                 </li>
                             </ul>
                         </div>
